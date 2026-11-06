@@ -1,0 +1,29 @@
+
+body {
+    background: #101020;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: #222244;
+    padding: 25px;
+    border-radius: 15px;
+    width: 180px;
+}
+
+button {
+    background: cyan;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
